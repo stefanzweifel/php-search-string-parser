@@ -1,0 +1,38 @@
+{
+    "name": "wnx/search-string-parser",
+    "description": "TBD",
+    "homepage": "https://github.com/stefanzweifel/php-search-string-parser",
+    "keywords": ["wnx"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan Zweifel",
+            "email": "hello@stefanzweifel.io",
+            "homepage": "https://stefanzweifel.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "spatie/regex": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wnx\\SearchStringParser\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wnx\\SearchStringParser\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
